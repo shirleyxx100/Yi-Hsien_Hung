@@ -69,17 +69,33 @@ header.box {
   display: inline-block;
 }
 
+.logo-tablet {
+  display: none;
+}
+
 .logo img {
   width: 400px;
+}
+
+.logo-tablet img {
+  width: 800px;
+  margin: 22px 0;
 }
 
 header .button {
   display: inline-block;
 }
 
+.button-tablet {
+  display: none;
+}
+
 .btn-portfolio,
 .btn-about-cv,
 .btn-contact,
+.btn-portfolio-tablet,
+.btn-about-cv-tablet,
+.btn-contact-tablet,
 .language {
   padding: 7px 10px;
   margin: 0 8px;
@@ -90,7 +106,8 @@ header .button {
   align-items: center;
 }
 
-.btn-portfolio {
+.btn-portfolio,
+.btn-portfolio-tablet {
   background-image: url("../../resources/images/btn-portfolio.png");
   background-size: cover;
 }
@@ -100,7 +117,8 @@ header .button {
   background-image: url();
 }
 
-.btn-about-cv {
+.btn-about-cv,
+.btn-about-cv-tablet {
   background-image: url("../../resources/images/btn-about-cv.png");
   background-size: cover;
 }
@@ -110,7 +128,8 @@ header .button {
   background-image: url();
 }
 
-.btn-contact {
+.btn-contact,
+.btn-contact-tablet {
   background-image: url("../../resources/images/btn-contact.png");
   background-size: cover;
 }
@@ -137,13 +156,36 @@ header .button {
 }
 
 @media only screen and (max-width: 1030px) {
+  body {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
   header.box {
     flex-direction: column;
   }
 
-  .logo img {
-    width: 100%;
-    margin: 22px 0;
+  .logo {
+    display: none;
+  }
+
+  .logo-tablet {
+    display: inline-block;
+  }
+
+  .button-desktop {
+    display: none;
+  }
+
+  .button-tablet {
+    display: inline-block;
   }
 }
 
@@ -235,6 +277,7 @@ header .button {
   min-height: 510px;
   margin: 0 auto;
   padding: 40px 0 80px 0;
+  min-width: 500px;
 }
 
 .intro {
@@ -272,6 +315,15 @@ header .button {
 @media only screen and (max-width: 1030px) {
   .content {
     top: 181px;
+  }
+
+  .intro {
+    width: 80%;
+  }
+
+  .quote {
+    font-size: 2rem;
+    width: 80%;
   }
 }
 
