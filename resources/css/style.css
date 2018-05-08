@@ -157,7 +157,7 @@ header .button {
 
 @media only screen and (max-width: 1030px) {
   body {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   h2 {
@@ -186,6 +186,13 @@ header .button {
 
   .button-tablet {
     display: inline-block;
+  }
+
+  .btn-portfolio-tablet,
+  .btn-about-cv-tablet,
+  .btn-contact-tablet,
+  .language {
+    font-size: 1.4rem;
   }
 }
 
@@ -324,9 +331,10 @@ header .button {
   }
 
   .quote {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     width: 80%;
   }
+
 }
 
 @media only screen and (max-width: 768px) {
