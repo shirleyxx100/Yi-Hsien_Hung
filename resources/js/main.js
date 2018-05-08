@@ -6,14 +6,14 @@ $(document).ready(function(){
     $('.introduction').hide();
   });
 
-  $('.btn-contact').on('click', () => {
+  $('.btn-contact').on('mouseenter', () => {
     $('.email').toggle();
   });
   $('.email').on('mouseleave', () => {
     $('.email').hide();
   });
 
-  $('.btn-portfolio').on('click', () => {
+  $('.btn-portfolio').on('mouseenter', () => {
     $('.drop-menu').toggle();
   });
   $('.drop-menu').on('mouseleave', () => {
