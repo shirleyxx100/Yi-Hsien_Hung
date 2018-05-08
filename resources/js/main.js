@@ -20,4 +20,8 @@ $(document).ready(function(){
     $('.drop-menu').hide();
   });
 
+  $('.btn-contact-tablet').on('click', () => {
+    $('.email-tablet').toggle();
+  });
+
 });
