@@ -286,6 +286,10 @@ header .button {
   min-width: 610px;
 }
 
+.content a {
+  text-decoration: underline;
+}
+
 .intro {
   width: 60%;
   margin: 30px auto;
