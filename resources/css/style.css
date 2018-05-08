@@ -10,14 +10,14 @@ body {
   width: 90%;
   padding: 5px 0;
   margin: 0 auto;
-  min-width: 500px;
+  min-width: 610px;
 }
 
 .box {
   width: 100%;
   padding: 20px 40px;
   margin: 0 auto;
-  min-width: 500px;
+  min-width: 610px;
 }
 
 h1 {
@@ -157,15 +157,15 @@ header .button {
 
 @media only screen and (max-width: 1030px) {
   body {
-    font-size: 2rem;
+    font-size: 1.1rem;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   header.box {
@@ -189,16 +189,18 @@ header .button {
   }
 }
 
-@media only screen and (max-width: 610px) {
-  .btn-portfolio,
-  .btn-about-cv,
-  .btn-contact,
-  .language {
-    display: flex;
-    margin: 10px 0;
-    justify-content: center;
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 2rem;
   }
 
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
 }
 
 /* pop-up */
@@ -277,7 +279,7 @@ header .button {
   min-height: 510px;
   margin: 0 auto;
   padding: 40px 0 80px 0;
-  min-width: 500px;
+  min-width: 610px;
 }
 
 .intro {
@@ -322,6 +324,13 @@ header .button {
   }
 
   .quote {
+    font-size: 1.4rem;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .quote {
     font-size: 2rem;
     width: 80%;
   }
@@ -348,7 +357,13 @@ footer {
     background-image: url("../../resources/images/footer-s.png");
     background-position: center;
     height: 200px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    font-size: 1.5rem;
   }
 }
