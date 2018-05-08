@@ -160,7 +160,7 @@ header .button {
   cursor: crosshair;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1030px) {
+@media only screen and (max-width: 1030px) {
   body {
     font-size: 1rem;
   }
@@ -203,15 +203,15 @@ header .button {
 
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -322,7 +322,7 @@ header .button {
   position: relative;
   top: 79px;
   max-width: 1200px;
-  min-height: 510px;
+  min-height: 1024px;
   margin: 0 auto;
   padding: 40px 0 80px 0;
   min-width: 610px;
@@ -382,7 +382,7 @@ header .button {
 
 @media only screen and (max-width: 480px) {
   .quote {
-    font-size: 2rem;
+    font-size: 1rem;
     width: 80%;
   }
 }
@@ -415,6 +415,6 @@ footer {
 
 @media only screen and (max-width: 480px) {
   footer {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
   }
 }
