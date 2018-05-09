@@ -426,12 +426,47 @@ footer {
   justify-content: center;
 }
 
+.projects a {
+  text-decoration: none;
+}
+
 .project {
   height: 250px;
   width: 250px;
-  /*border: 12px solid rgb(255, 255, 255);*/
   margin: 10px;
   box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: rgba(156, 19, 54, 0.8);
+  text-align: center;
+  opacity: 0;
+}
+
+.project .name:hover {
+  opacity: 1;
+}
+
+.project .name h3 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
 }
 
 .container-fluid {
@@ -441,9 +476,6 @@ footer {
 
 .project.one {
   background-image: url("../../resources/images/test.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .project.blank {
@@ -458,5 +490,16 @@ footer {
   .project {
     width: 350px;
     height: 350px;
+  }
+
+  .project .name {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: auto;
+  }
+
+  .project .name h3 {
+    color: rgb(156, 19, 54);
+    font-size: 1.8rem;
   }
 }
