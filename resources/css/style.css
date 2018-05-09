@@ -420,9 +420,18 @@ footer {
 }
 
 /* portfolio.html */
+.projects.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 .project {
-  height: 270px;
-  border: 12px solid rgb(255, 255, 255);
+  height: 250px;
+  width: 250px;
+  /*border: 12px solid rgb(255, 255, 255);*/
+  margin: 10px;
   box-sizing: border-box;
 }
 
@@ -431,17 +440,20 @@ footer {
   margin-bottom: 100px;
 }
 
-.project.one,
-.project.five,
-.project.two,
-.project.four {
+.project.one {
   background-image: url("../../resources/images/test.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.project.six,
-.project.three {
-  background-color: red;
+.project.blank {
+  height: 100px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1030px) {
+  .project {
+    width: 350px;
+    height: 350px;
+  }
 }
