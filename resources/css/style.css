@@ -144,6 +144,7 @@ header .button {
 
 .language {
   color: rgb(156, 19, 54);
+  /*display: none;*/
 }
 
 .mandarin {
@@ -219,7 +220,7 @@ header .button {
 .introduction {
   width: 820px;
   position: fixed;
-  top: 130px;
+  top: 129px;
   left: 40px;
   padding: 20px;
   z-index: 7;
@@ -259,7 +260,7 @@ header .button {
   padding: 30px 20px 20px 20px;
   position: fixed;
   top: 65px;
-  left: 50%;
+  left: 49.6%;
   z-index: 7;
   font-family : "Sigmar One";
   font-size: 1.1rem;
@@ -276,24 +277,6 @@ header .button {
 .drop-menu li:hover {
   margin-left: -10px;
   cursor: crosshair;
-}
-
-.drop-menu-tablet {
-  display: none;
-  position: fixed;
-  top: 210px;
-  width: 100%;
-  background-color: rgba(156, 19, 54, 1);
-  font-family: "Sigmar One", sans-serif;
-  font-size: 1.3rem;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  z-index: 8;
-}
-
-.drop-menu-tablet li {
-  padding: 5px 0;
-  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1030px) {
@@ -478,6 +461,26 @@ footer {
 
 .project.one {
   background-image: url("../../resources/images/mastbos.png");
+}
+
+.project.two {
+  background-image: url("../../resources/images/creatures.png");
+}
+
+.project.three {
+  background-image: url("../../resources/images/aria-sicura.png");
+}
+
+.project.four {
+  background-image: url("../../resources/images/watercolour-palette.png");
+}
+
+.project.five {
+  background-image: url("../../resources/images/portfolio-website.png");
+}
+
+.project.six {
+  background-color: rgba(156, 19, 54, 1);;
 }
 
 .project.blank {

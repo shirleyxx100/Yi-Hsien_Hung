@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.logo').on('mouseenter', () => {
+    $('.logo').on('mouseenter', () => {
     $('.introduction').show();
   });
   $('.logo').on('mouseleave', () => {
