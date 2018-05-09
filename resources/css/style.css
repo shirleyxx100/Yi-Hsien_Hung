@@ -368,6 +368,7 @@ header .button {
   .content {
     top: 181px;
     min-height: 1470px;
+    padding-bottom: 110px;
   }
 
   .intro {
@@ -531,5 +532,7 @@ img.small {
 }
 
 @media only screen and (max-width: 1030px) {
-
+  .text-box {
+    width: 80%;
+  }
 }
