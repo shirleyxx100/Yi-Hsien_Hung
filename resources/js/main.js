@@ -9,6 +9,9 @@ $(document).ready(function(){
   $('.btn-contact').on('mouseenter', () => {
     $('.email').toggle();
   });
+  $('.btn-contact').on('click', () => {
+    $('.email').toggle();
+  });
   $('.email').on('mouseleave', () => {
     $('.email').hide();
   });

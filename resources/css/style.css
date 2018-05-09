@@ -240,7 +240,7 @@ header .button {
 .email-tablet {
   display: none;
   position: fixed;
-  top: 209px;
+  top: 205px;
   width: 100%;
   text-align: center;
   background-color: rgba(156, 19, 54, 1);
@@ -424,7 +424,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
 }
 
 .project {
@@ -451,7 +450,11 @@ footer {
   height: 100px;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1030px) {
+@media only screen and (max-width: 1030px) {
+  .projects.content {
+    margin-top: 30px;
+  }
+
   .project {
     width: 350px;
     height: 350px;
