@@ -234,9 +234,10 @@ header .button {
 
 .email {
   position: fixed;
-  top: 64px;
+  top: 100px;
   right: 40px;
-  padding: 21px;
+  padding: 20px;
+  padding-top: 5px;
   z-index: 6;
   display: none;
   background-color: rgb(255, 255, 255, 0.9);
@@ -538,6 +539,12 @@ img.small {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 40px;
+}
+
+.caption p {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1030px) {

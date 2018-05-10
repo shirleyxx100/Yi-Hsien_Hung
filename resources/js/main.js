@@ -38,4 +38,16 @@ $(document).ready(function(){
     pauseOnHover: false,
     adaptiveHeight: false
   });
+
+  $('.carousel-s').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    adaptiveHeight: false
+  });
 });
