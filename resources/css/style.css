@@ -38,6 +38,10 @@ strong {
   font-weight: bold;
 }
 
+em {
+  font-style: italic;
+}
+
 a {
   color: inherit;
   cursor: pointer;
@@ -514,6 +518,7 @@ footer {
 .image-box {
   overflow: scroll;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 img.large {
