@@ -39,7 +39,7 @@ $(document).ready(function(){
     adaptiveHeight: false
   });
 
-  $('.carousel-s').slick({
+  $('.carousel-three').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
