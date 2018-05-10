@@ -544,4 +544,8 @@ img.small {
   .text-box {
     width: 80%;
   }
+
+  img.small {
+    width: 100%;
+  }
 }
