@@ -39,6 +39,18 @@ $(document).ready(function(){
     adaptiveHeight: false
   });
 
+  $('.carousel-two').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    adaptiveHeight: false
+  });
+
   $('.carousel-three').slick({
     slidesToShow: 3,
     slidesToScroll: 1,

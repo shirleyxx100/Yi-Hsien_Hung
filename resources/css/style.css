@@ -548,6 +548,16 @@ img.small {
   margin-bottom: 20px;
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 99%;
+}
+
 @media only screen and (max-width: 1030px) {
   .text-box {
     width: 80%;
