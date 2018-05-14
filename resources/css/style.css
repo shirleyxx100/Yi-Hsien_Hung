@@ -518,9 +518,14 @@ footer {
 
 /* portfolio pages */
 .image-box {
-  overflow: scroll;
   margin-bottom: 40px;
   text-align: center;
+}
+
+.image-box-overflow {
+  margin-bottom: 40px;
+  text-align: center;
+  overflow: scroll;
 }
 
 img.large {
