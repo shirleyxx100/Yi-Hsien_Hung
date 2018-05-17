@@ -495,6 +495,10 @@ footer {
   background-image: url("../../resources/images/sinful-dark-chocolate.png");
 }
 
+.project.eight {
+  background-image: url("../../resources/images/milk-blue.png");
+}
+
 .project.blank {
   height: 100px;
 }
@@ -551,6 +555,11 @@ img.small {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 40px;
+}
+
+.text-box li {
+  list-style: upper-roman outside;
+  margin-left: 50px;
 }
 
 .caption p {
