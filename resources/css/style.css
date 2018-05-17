@@ -499,6 +499,10 @@ footer {
   background-image: url("../../resources/images/milk-blue.png");
 }
 
+.project.nine {
+  background-image: url("../../resources/images/ritek.png");
+}
+
 .project.blank {
   height: 100px;
 }
