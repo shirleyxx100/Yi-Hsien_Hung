@@ -414,6 +414,18 @@ footer {
   }
 }
 
+@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+  footer {
+    height: 353px;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px) {
+  footer {
+    height: 423px;
+  }
+}
+
 /* portfolio.html */
 .projects.content {
   display: flex;
