@@ -10,7 +10,7 @@ body {
 }
 
 .box {
-  width: 100%;
+  min-width: 100%;
   max-width: 1440px;
   padding: 20px 40px;
   margin: 0 auto;
