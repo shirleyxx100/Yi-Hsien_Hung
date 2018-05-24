@@ -64,7 +64,6 @@ a:visited {
 
 /* header */
 header {
-  max-width: 1440px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,7 +71,6 @@ header {
   top: 0;
   background-image: url("../../resources/images/background.png");
   z-index: 5;
-  float: right;
 }
 
 .logo {
@@ -272,7 +270,7 @@ header .button {
   padding: 30px 20px 20px 20px;
   position: fixed;
   top: 65px;
-  left: 55%;
+  left: 63%;
   z-index: 7;
   font-family : "Sigmar One";
   font-size: 1.1rem;
