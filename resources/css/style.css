@@ -10,7 +10,7 @@ body {
 }
 
 .box {
-  min-width: 100%;
+  width: 100%;
   max-width: 1440px;
   padding: 20px 40px;
   margin: 0 auto;
@@ -64,14 +64,14 @@ a:visited {
 }
 
 /* header */
-header.box {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   top: 0;
   background-image: url("../../resources/images/background.png");
-  z-index: 5
+  z-index: 5;
 }
 
 .logo {
