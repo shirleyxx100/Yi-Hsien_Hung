@@ -11,6 +11,7 @@ body {
 
 .box {
   width: 100%;
+  max-width: 1440px;
   padding: 20px 40px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -388,7 +389,7 @@ footer {
   display: flex;
   align-items: flex-end;
   top: 79px;
-  height: 301px;
+  min-height: 301px;
   color : rgba(255, 255, 255, 0.9);
   background-image: url("../../resources/images/footer.png");
   background-size: cover;
