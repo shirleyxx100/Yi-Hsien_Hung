@@ -517,6 +517,10 @@ footer {
   background-image: url("../../resources/images/ritek.png");
 }
 
+.project.ten {
+  background-image: url("../../resources/images/swiss-roll-icon.png");
+}
+
 .project.blank {
   height: 100px;
 }
