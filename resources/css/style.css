@@ -521,6 +521,10 @@ footer {
   background-image: url("../../resources/images/swiss-roll-icon.png");
 }
 
+.project.eleven {
+  background-image: url("../../resources/images/monster-icon.gif");
+}
+
 .project.blank {
   height: 100px;
 }
