@@ -525,6 +525,10 @@ footer {
   background-image: url("../../resources/images/monster-icon.gif");
 }
 
+.project.twelve {
+  background-image: url("../../resources/images/infographic-3.gif");
+}
+
 .project.blank {
   height: 100px;
 }
