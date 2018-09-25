@@ -529,6 +529,10 @@ footer {
   background-image: url("../../resources/images/infographic-3.gif");
 }
 
+.project.thirteen {
+  background-image: url("../../resources/images/digital-drawing-icon.png");
+}
+
 .project.blank {
   height: 100px;
 }
