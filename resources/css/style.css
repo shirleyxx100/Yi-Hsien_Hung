@@ -283,7 +283,7 @@ header .button {
   font-family : "Sigmar One";
   font-size: 1.1rem;
   color: rgb(255, 255, 255);
-  width: 284px;
+  width: 300px;
   display: none;
 }
 
@@ -495,10 +495,12 @@ footer {
 
 .project.two {
   background-image: url("../../resources/images/creatures.jpg");
+  display: none;
 }
 
 .project.three {
   background-image: url("../../resources/images/aria-sicura.jpg");
+  display: none;
 }
 
 .project.four {
@@ -507,6 +509,7 @@ footer {
 
 .project.five {
   background-image: url("../../resources/images/portfolio-website.jpg");
+  display: none;
 }
 
 .project.six {
@@ -524,6 +527,7 @@ footer {
 
 .project.nine {
   background-image: url("../../resources/images/ritek.jpg");
+  display: none;
 }
 
 .project.ten {
@@ -536,10 +540,15 @@ footer {
 
 .project.twelve {
   background-image: url("../../resources/images/infographic-3.gif");
+  display: none;
 }
 
 .project.thirteen {
   background-image: url("../../resources/images/digital-drawing-icon.jpg");
+}
+
+.project.fourteen {
+  background-image: url("../../resources/images/island-icon.jpg");
 }
 
 .project.blank {
