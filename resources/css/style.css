@@ -549,6 +549,10 @@ footer {
   background-image: url("../../resources/images/island-icon.jpg");
 }
 
+.project.fifteen {
+  background-image: url("../../resources/images/artist-profile-icon.jpg");
+}
+
 .project.blank {
   height: 100px;
 }
