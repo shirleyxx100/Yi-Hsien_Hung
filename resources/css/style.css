@@ -7,6 +7,9 @@ body {
   hyphens: none;
   background-image: url("../../resources/images/background.png");
   /*background-attachment: fixed;*/
+
+  /* add */
+  min-width: 320px;
 }
 
 .box {
@@ -15,6 +18,7 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
+  min-width: inherit;
 }
 
 h1 {
@@ -160,7 +164,6 @@ header .button {
 .language {
   color: rgb(156, 19, 54);
   display: none;
-  /*display: none;*/
 }
 
 .mandarin {
@@ -177,7 +180,7 @@ header .button {
   cursor: crosshair;
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1040px) {
   body {
     font-size: 1rem;
   }
@@ -202,12 +205,20 @@ header .button {
     display: inline-block;
   }
 
+  .logo-tablet {
+    width: 90%;
+    }
+
+  .logo-tablet img {
+    width: 80%;
+  }
+
   .button-desktop {
     display: none;
   }
 
   .button-tablet {
-    display: inline-block;
+    display: flex;
   }
 
   .btn-portfolio-tablet,
@@ -218,17 +229,63 @@ header .button {
   }
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    font-size: 1rem;
+@media only screen and (max-width: 950px) {
+  .logo-tablet img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .btn-portfolio-tablet,
+  .btn-about-cv-tablet,
+  .btn-contact-tablet,
+  .language {
+    font-size: 1.1rem;
+    padding: 6px 8px;
+    margin: 0 6px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.box {
+    padding: 0 0 30px 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .btn-portfolio-tablet,
+  .btn-about-cv-tablet,
+  .btn-contact-tablet,
+  .language {
+    font-size: 1.1rem;
+    padding: 3px 5px;
+    margin: 0 6px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .btn-portfolio-tablet,
+  .btn-about-cv-tablet,
+  .btn-contact-tablet,
+  .language {
+    font-size: 0.8rem;
+    padding: 2px 4px;
+    margin: 0 3px;
   }
 
-  h2 {
-    font-size: 1.8rem;
+  .logo-tablet img {
+    margin: 15px 0 10px 0;
   }
+}
 
-  h3 {
-    font-size: 1rem;
+@media only screen and (max-width: 360px) {
+  .btn-portfolio-tablet,
+  .btn-about-cv-tablet,
+  .btn-contact-tablet,
+  .language {
+    font-size: 0.7rem;
+    padding: 2px 4px;
+    margin: 0 3px;
   }
 }
 
@@ -258,17 +315,19 @@ header .button {
 .email-tablet {
   display: none;
   position: fixed;
-  top: 205px;
+  top: 194px;
   width: 100%;
   text-align: center;
   background-color: rgba(156, 19, 54, 1);
   padding: 20px 0;
   z-index: 9;
+  min-width: inherit;
 }
 
 .email-tablet h1 {
   color: rgb(255, 255, 255);
   margin: 0;
+  font-size: 3.5rem;
 }
 
 .drop-menu {
@@ -277,8 +336,8 @@ header .button {
   background-size: cover;
   padding: 30px 20px 20px 20px;
   position: fixed;
-  top: 65px;
-  left: 63.7%;
+  top: 70px;
+  left: 55%;
   z-index: 7;
   font-family : "Sigmar One";
   font-size: 1.1rem;
@@ -297,24 +356,86 @@ header .button {
   cursor: crosshair;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1030px) {
-  h1 {
-    font-size: 55px;
-    line-height: 1.01;
+@media only screen and (max-width: 1030px) {
+  .email-tablet {
+    top: 185px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .email-tablet h1 {
+    font-size: 3rem;
   }
 
-  .introduction {
-    top: 215px;
-    width: 90%;
+  .email-tablet {
+    top: 190px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .email-tablet h1 {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .email-tablet {
+    top: 188px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .email-tablet h1 {
+    font-size: 2.5rem;
   }
 
-  .email {
-    top: 160px;
+  .email-tablet {
+    top: 187px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .email-tablet {
+    top: 180px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .email-tablet h1 {
+    font-size: 2rem;
   }
 
-  .drop-menu {
+  .email-tablet {
     top: 170px;
-    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .email-tablet {
+    top: 170px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .email-tablet {
+    top: 145px;
+    padding: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .email-tablet {
+    top: 100px;
+  }
+
+  .email-tablet h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .email-tablet h1 {
+    font-size: 1.4rem;
   }
 }
 
@@ -326,7 +447,7 @@ header .button {
   min-height: 600px;
   margin: 0 auto;
   padding: 40px 0 80px 0;
-  min-width: 610px;
+  /*min-width: 610px;*/
 }
 
 .content a {
@@ -365,76 +486,7 @@ header .button {
   color: rgba(128, 128, 128, 1);
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1030px) {
-  .content {
-    top: 181px;
-    min-height: 1470px;
-    padding-bottom: 110px;
-  }
-
-  .intro {
-    width: 80%;
-  }
-
-  .quote {
-    font-size: 1rem;
-    width: 60%;
-  }
-
-}
-
-@media only screen and (max-width: 480px) {
-  .quote {
-    font-size: 1rem;
-    width: 80%;
-  }
-}
-
-/* footer */
-
-footer {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  top: 79px;
-  min-height: 301px;
-  color : rgba(255, 255, 255, 0.9);
-  background-image: url("../../resources/images/footer.png");
-  background-size: cover;
-  background-position: right;
-  font-family : "Sigmar One", sans-serif;
-  font-size: 0.8rem;
-}
-
-@media only screen and (min-width: 481px) and (max-width: 1030px) {
-  footer {
-    background-image: url("../../resources/images/footer-s.png");
-    background-position: center;
-    height: 200px;
-    font-size: 0.8rem;
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  footer {
-    font-size: 0.8rem;
-  }
-}
-
-@media only screen and (min-width: 1440px) and (max-width: 1600px) {
-  footer {
-    height: 353px;
-  }
-}
-
-@media only screen and (min-width: 1600px) and (max-width: 1920px) {
-  footer {
-    height: 423px;
-  }
-}
-
-/* portfolio.html */
+/* index.html */
 .projects.content {
   display: flex;
   flex-wrap: wrap;
@@ -484,10 +536,10 @@ footer {
   height: 100%;
 }
 
-.container-fluid {
+/*.container-fluid {
   width: 85%;
   margin-bottom: 100px;
-}
+}*/
 
 .project.one {
   background-image: url("../../resources/images/mastbos.jpg");
@@ -554,18 +606,12 @@ footer {
 }
 
 .project.blank {
-  height: 100px;
+  height: 50px;
 }
 
-@media only screen and (max-width: 1030px) {
-  .projects.content {
-    margin-top: 30px;
-  }
-
-  .project {
-    width: 350px;
-    height: 350px;
-    margin: 10px;
+@media only screen and (max-width: 1040px) {
+  .content {
+    top: 200px;
   }
 
   .project .name {
@@ -576,7 +622,130 @@ footer {
 
   .project .name h3 {
     color: rgb(156, 19, 54);
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .content {
+    top: 170px;
+  }
+
+  .intro {
+    width: 80%;
+  }
+
+  .quote {
+    font-size: 1rem;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .projects.content {
+    padding: 40px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    top: 160px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .content {
+    top: 140px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    top: 120px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .project {
+    width: 350px;
+    height: 350px;
+  }
+
+  .project.blank {
+    height: 30px;
+  }
+
+  .content {
+    font-size: 0.9rem;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .quote {
+    font-size: 1rem;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .content {
+    top: 85px;
+  }
+
+  .intro {
+    width: 90%;
+    font-size: 1.6rem;
+  }
+
+  .quote {
+    font-size: 1rem;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .project {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  top: 79px;
+  display: flex;
+  align-items: flex-end;
+  min-height: 301px;
+  color : rgba(255, 255, 255, 0.9);
+  background-image: url("../../resources/images/footer.png");
+  background-size: cover;
+  background-position: right;
+  font-family : "Sigmar One", sans-serif;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 1450px) and (max-width: 1600px) {
+  footer {
+    height: 353px;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+  footer {
+    height: 423px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  footer {
+    background-image: url("../../resources/images/footer-s.png");
+    background-position: center;
+    justify-content: center;
+    font-size: 0.9rem;
   }
 }
 
@@ -599,6 +768,10 @@ img.large {
 img.small {
   width: 60%;
   margin: 0 auto;
+}
+
+.image-box img {
+  max-width: 100%;
 }
 
 .text-box p {
@@ -630,6 +803,10 @@ img.small {
 
 .gallery img {
   width: 99%;
+}
+
+video {
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 1030px) {
