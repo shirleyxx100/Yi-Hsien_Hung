@@ -12,6 +12,11 @@ body {
   min-width: 320px;
 }
 
+::selection {
+  background: rgb(156, 19, 54); /* WebKit/Blink Browsers */
+  color: white;
+}
+
 .box {
   width: 100%;
   padding: 20px 40px;
