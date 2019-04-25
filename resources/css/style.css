@@ -610,6 +610,10 @@ header .button {
   background-image: url("../../resources/images/artist-profile-icon.jpg");
 }
 
+.project.sixteen {
+  background-image: url("../../resources/images/granny-bike-icon.jpg");
+}
+
 .project.blank {
   height: 50px;
 }
