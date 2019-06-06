@@ -79,6 +79,10 @@ span.gray {
   color: rgba(128, 128, 128, 1);
 }
 
+.hide {
+  display: none;
+}
+
 /* header */
 header {
   display: flex;
