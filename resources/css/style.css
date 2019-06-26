@@ -570,6 +570,7 @@ header .button {
 
 .project.five {
   background-image: url("../../resources/images/portfolio-website.jpg");
+  display: none;
 }
 
 .project.six {
@@ -621,6 +622,10 @@ header .button {
 
 .project.seventeen {
   background-image: url("../../resources/images/nouveau-icon.jpg");
+}
+
+.project.eighteen {
+  background-image: url("../../resources/images/magpie-icon.gif");
 }
 
 .project.blank {
