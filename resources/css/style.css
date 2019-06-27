@@ -477,6 +477,10 @@ header .button {
   border-left: 6px solid rgb(156, 19, 54);
 }
 
+.portrait-small {
+  display: none;
+}
+
 .cv {
   width: 85%;
   margin: 60px auto;
@@ -725,6 +729,14 @@ header .button {
   .quote {
     font-size: 1rem;
     width: 80%;
+  }
+
+  .portrait-large {
+    display: none;
+  }
+
+  .portrait-small {
+    display: inline;
   }
 }
 
