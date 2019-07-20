@@ -351,7 +351,7 @@ header .button {
   font-family : "Sigmar One";
   font-size: 1.1rem;
   color: rgb(255, 255, 255);
-  width: 300px;
+  width: 325px;
   display: none;
 }
 
@@ -630,6 +630,10 @@ header .button {
 
 .project.eighteen {
   background-image: url("../../resources/images/magpie-icon.gif");
+}
+
+.project.nineteen {
+  background-image: url("../../resources/images/lighthouse-icon.png");
 }
 
 .project.blank {
