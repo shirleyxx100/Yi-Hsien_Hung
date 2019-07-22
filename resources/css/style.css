@@ -626,6 +626,7 @@ header .button {
 
 .project.seventeen {
   background-image: url("../../resources/images/nouveau-icon.jpg");
+  display: none;
 }
 
 .project.eighteen {
@@ -634,6 +635,10 @@ header .button {
 
 .project.nineteen {
   background-image: url("../../resources/images/lighthouse-icon.png");
+}
+
+.project.twenty {
+  background-image: url("../../resources/images/kino-icon.gif");
 }
 
 .project.blank {
