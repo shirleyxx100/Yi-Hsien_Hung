@@ -618,6 +618,7 @@ header .button {
 
 .project.fifteen {
   background-image: url("../../resources/images/artist-profile-icon.jpg");
+  display: none;
 }
 
 .project.sixteen {
@@ -639,6 +640,10 @@ header .button {
 
 .project.twenty {
   background-image: url("../../resources/images/kino-icon.gif");
+}
+
+.project.twentyone {
+  background-image: url("../../resources/images/marten-icon.gif");
 }
 
 .project.blank {
