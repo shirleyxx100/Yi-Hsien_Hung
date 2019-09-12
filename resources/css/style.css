@@ -459,6 +459,10 @@ header .button {
   /*min-width: 610px;*/
 }
 
+.cv {
+  display: none;
+}
+
 .content a {
   text-decoration: underline;
 }
