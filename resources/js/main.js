@@ -16,12 +16,12 @@ $(document).ready(function(){
     $('.email').hide();
   });
 
-  $('.btn-portfolio').on('mouseenter', () => {
+  /* $('.btn-portfolio').on('mouseenter', () => {
     $('.drop-menu').toggle();
   });
   $('.drop-menu').on('mouseleave', () => {
     $('.drop-menu').hide();
-  });
+  }); */
 
   $('.btn-contact-tablet').on('click', () => {
     $('.email-tablet').toggle();
@@ -62,5 +62,5 @@ $(document).ready(function(){
     pauseOnHover: false,
     adaptiveHeight: false
   });
-  
+
 });

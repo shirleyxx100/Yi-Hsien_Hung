@@ -650,6 +650,10 @@ header .button {
   background-image: url("../../resources/images/marten-icon.gif");
 }
 
+.project.twentytwo {
+  background-image: url("../../resources/images/hung-studio.gif");
+}
+
 .project.blank {
   height: 50px;
 }
