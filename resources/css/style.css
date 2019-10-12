@@ -475,7 +475,7 @@ header .button {
 .quote {
   font-family : "Titan One", sans-serif;
   font-size: 1rem;
-  width: 50%;
+  width: 45%;
   margin: 30px auto;
   padding: 0 10px;
   border-left: 6px solid rgb(156, 19, 54);
@@ -483,6 +483,11 @@ header .button {
 
 .portrait-small {
   display: none;
+}
+
+.myself {
+  width: 85%;
+  margin: 60px auto;
 }
 
 .cv {
