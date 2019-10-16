@@ -41,7 +41,8 @@ h2 {
 }
 
 h3 {
-  font-family: "Sigmar One", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
   color : rgb(156, 19, 54);
   font-size: 1.5rem;
 }
@@ -790,7 +791,6 @@ footer {
   background-image: url("../../resources/images/footer.png");
   background-size: cover;
   background-position: right;
-  font-family : "Sigmar One", sans-serif;
   font-size: 1rem;
 }
 
