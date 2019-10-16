@@ -659,6 +659,10 @@ header .button {
   background-image: url("../../resources/images/hung-studio.gif");
 }
 
+.project.twentythree {
+  background-image: url("../../resources/images/drone-icon.jpg");
+}
+
 .project.blank {
   height: 50px;
 }
