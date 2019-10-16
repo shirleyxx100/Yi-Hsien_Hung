@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    $('.logo').on('mouseenter', () => {
+    /* $('.logo').on('mouseenter', () => {
     $('.introduction').show();
   });
   $('.logo').on('mouseleave', () => {
     $('.introduction').hide();
-  });
+  });*/
 
   $('.btn-contact').on('mouseenter', () => {
     $('.email').toggle();
