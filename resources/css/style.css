@@ -110,7 +110,6 @@ header {
 
 .logo img:hover {
   width: 405px;
-  transition-duration: 400ms;
 }
 
 .logo-tablet img {
@@ -160,7 +159,6 @@ header .button {
   color: rgb(156, 19, 54);
   background-image: url();
   cursor: crosshair;
-  transition-duration: 1500ms;
 }
 
 .btn-about-cv,
@@ -172,7 +170,6 @@ header .button {
 .btn-about-cv:hover {
   color: rgb(156, 19, 54);
   background-image: url();
-  transition-duration: 1500ms;
 }
 
 .btn-contact,
@@ -185,7 +182,6 @@ header .button {
   color: rgb(156, 19, 54);
   background-image: url();
   cursor: crosshair;
-  transition-duration: 1500ms;
 }
 
 .language {
@@ -200,13 +196,11 @@ header .button {
 .english:hover {
   color: rgb(156, 19, 54);
   cursor: crosshair;
-  transition-duration: 750ms;
 }
 
 .mandarin:hover {
   color: rgb(156, 19, 54);
   cursor: crosshair;
-  transition-duration: 750ms;
 }
 
 @media only screen and (max-width: 1040px) {
