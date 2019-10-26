@@ -666,6 +666,10 @@ header .button {
   background-image: url("../../resources/images/drone-icon.jpg");
 }
 
+.project.twentyfour {
+  background-image: url("../../resources/images/ball.gif");
+}
+
 .project.blank {
   height: 50px;
 }
