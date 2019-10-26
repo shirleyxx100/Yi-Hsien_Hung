@@ -37,10 +37,10 @@ $(document).ready(function(){
   }); */
 
   $('.btn-contact-tablet').on('click', () => {
-    $('#show-2').show();
+    $('#show-2').toggle();
   });
   $('.btn-contact-tablet').on('click', () => {
-    $('#hide-2').hide();
+    $('#hide-2').toggle();
   });
 
   $('.carousel').slick({
