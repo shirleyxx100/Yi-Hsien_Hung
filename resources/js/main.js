@@ -6,7 +6,7 @@ $(document).ready(function(){
     $('.introduction').hide();
   });*/
 
-  $('.btn-contact').on('mouseenter', () => {
+  /*$('.btn-contact').on('mouseenter', () => {
     $('.email').toggle();
   });
   $('.btn-contact').on('click', () => {
@@ -14,6 +14,19 @@ $(document).ready(function(){
   });
   $('.email').on('mouseleave', () => {
     $('.email').hide();
+  });*/
+
+  $('.btn-contact').on('mouseenter', () => {
+    $('#show').show();
+  });
+  $('.btn-contact').on('mouseleave', () => {
+    $('#show').hide();
+  });
+  $('.btn-contact').on('mouseenter', () => {
+    $('#hide').hide();
+  });
+  $('.btn-contact').on('mouseleave', () => {
+    $('#hide').show();
   });
 
   /* $('.btn-portfolio').on('mouseenter', () => {
@@ -24,7 +37,10 @@ $(document).ready(function(){
   }); */
 
   $('.btn-contact-tablet').on('click', () => {
-    $('.email-tablet').toggle();
+    $('#show-2').show();
+  });
+  $('.btn-contact-tablet').on('click', () => {
+    $('#hide-2').hide();
   });
 
   $('.carousel').slick({

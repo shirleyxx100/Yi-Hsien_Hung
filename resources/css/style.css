@@ -108,6 +108,11 @@ header {
   width: 400px;
 }
 
+.logo img:hover {
+  width: 405px;
+  transition-duration: 400ms;
+}
+
 .logo-tablet img {
   width: 800px;
   margin: 22px 0;
@@ -118,6 +123,14 @@ header .button {
 }
 
 .button-tablet {
+  display: none;
+}
+
+#show {
+  display: none;
+}
+
+#show-2 {
   display: none;
 }
 
@@ -147,6 +160,7 @@ header .button {
   color: rgb(156, 19, 54);
   background-image: url();
   cursor: crosshair;
+  transition-duration: 1500ms;
 }
 
 .btn-about-cv,
@@ -158,6 +172,7 @@ header .button {
 .btn-about-cv:hover {
   color: rgb(156, 19, 54);
   background-image: url();
+  transition-duration: 1500ms;
 }
 
 .btn-contact,
@@ -170,6 +185,7 @@ header .button {
   color: rgb(156, 19, 54);
   background-image: url();
   cursor: crosshair;
+  transition-duration: 1500ms;
 }
 
 .language {
@@ -184,11 +200,13 @@ header .button {
 .english:hover {
   color: rgb(156, 19, 54);
   cursor: crosshair;
+  transition-duration: 750ms;
 }
 
 .mandarin:hover {
   color: rgb(156, 19, 54);
   cursor: crosshair;
+  transition-duration: 750ms;
 }
 
 @media only screen and (max-width: 1040px) {
@@ -549,6 +567,7 @@ header .button {
 
 .project .name:hover {
   opacity: 1;
+  transition-duration: 400ms;
 }
 
 .project .name h3 {
