@@ -683,6 +683,10 @@ header .button {
   background-image: url("../../resources/images/ball.gif");
 }
 
+.project.twentyfive {
+  background-image: url("../../resources/images/coffee-table-icon.jpg");
+}
+
 .project.blank {
   height: 50px;
 }
